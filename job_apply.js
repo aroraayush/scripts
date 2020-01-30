@@ -85,3 +85,15 @@ else if(window.location.host.includes("brassring")){
     document.getElementById('edumajor1').value="Computer Science";
     document.getElementById('education_1_0_degree_slt_0-input-input').value="Master's degree";
 }
+else if(window.location.host.includes("jobvite")){
+    document.getElementById('jv-field-yKqvXfwm').value="San Francisco";
+    document.getElementById('jv-field-yHqvXfwj').value="94132";
+    document.getElementById('jv-field-yPqvXfwr').value = 5
+    document.getElementById('jv-field-yFqvXfwh').value = 0
+    document.getElementById('jv-field-yOqvXfwq').value = 'University of San Francisco'
+    document.getElementById('jv-field-yQqvXfws').value = 'Student'
+    document.getElementById('jv-field-yMqvXfwo').value = 2
+    document.getElementById('jv-field-yNqvXfwp').value = 'Linkedin'
+    document.getElementById('jv-field-f9').value = 'Ayush Arora'
+    document.getElementById('jv-field-date10').value = '2020-01-29'
+}
