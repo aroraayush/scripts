@@ -2,7 +2,7 @@ function fillValues(labelText,inputsList){
     for (let input of inputsList) {
         if(input.type === "text"){
             if(labelText==='linkedin'){
-                input.value="https://www.linkedin.com/in/ayush-usf"
+                input.value="https://www.linkedin.com/in/arora-ayush"
             }
             else if(labelText==='how did you find'){
                 input.value="Linkedin"
@@ -14,7 +14,7 @@ function fillValues(labelText,inputsList){
 if(window.location.host.includes("greenhouse")){
     document.getElementById('first_name').value="Ayush";
     document.getElementById('last_name').value="Arora";
-    document.getElementById('email').value="ayusharora009@gmail.com";
+    document.getElementById('email').value="aarora7@dons.usfca.edu";
     document.getElementById('phone').value="4156546586";
     document.getElementById('job_application_location').value="San Francisco, California, United States";
 
@@ -41,7 +41,7 @@ if(window.location.host.includes("greenhouse")){
 else if(window.location.host.includes("brassring")){
     document.getElementById('profile_1_0_firstname_txt_0').value="Ayush";
     document.getElementById('profile_3_0_lastname_txt_0').value="Arora";
-    document.getElementById('profile_4_0_email_eml_0').value="ayusharora009@gmail.com";
+    document.getElementById('profile_4_0_email_eml_0').value="aarora7@dons.usfca.edu";
     document.getElementById('profile_5_0_address1_txt_0').value="150 Font Blvd, 2C";
     document.getElementById('profile_11_0_homephone_txt_0').value="4156546586";
     document.getElementById('profile_7_0_city_txt_0').value="San Francisco";
@@ -94,6 +94,38 @@ else if(window.location.host.includes("jobvite")){
     document.getElementById('jv-field-yQqvXfws').value = 'Student'
     document.getElementById('jv-field-yMqvXfwo').value = 2
     document.getElementById('jv-field-yNqvXfwp').value = 'Linkedin'
+    /*
     document.getElementById('jv-field-f9').value = 'Ayush Arora'
-    document.getElementById('jv-field-date10').value = '2020-01-29'
+    document.getElementById('jv-field-f22').value = 'Ayush Arora'
+    document.getElementById('jv-field-f37').value = 'Ayush Arora'
+    */
+}
+else if(window.location.host.includes("lever")){
+    document.getElementById('jv-field-yKqvXfwm').value="San Francisco";
+    document.getElementById('jv-field-yHqvXfwj').value="94132";
+    document.getElementById('jv-field-yPqvXfwr').value = 5
+    document.getElementById('jv-field-yFqvXfwh').value = 0
+    document.getElementById('jv-field-yOqvXfwq').value = 'University of San Francisco'
+    document.getElementById('jv-field-yQqvXfws').value = 'Student'
+    document.getElementById('jv-field-yMqvXfwo').value = 2
+    document.getElementById('jv-field-yNqvXfwp').value = 'Linkedin'
+    /*
+    document.getElementById('jv-field-f9').value = 'Ayush Arora'
+    document.getElementById('jv-field-f22').value = 'Ayush Arora'
+    document.getElementById('jv-field-f37').value = 'Ayush Arora'
+    */
+}
+else if(window.location.host.includes("glassdoor")){
+    document.getElementById('first_name').value="Ayusha";
+    document.getElementById('last_name').value="Arora";
+    document.getElementById('email').value="aarora7@dons.usfca.edu";
+    document.getElementById('phone').value="4156546586";
+    document.getElementById('job_application_location').value="San Francisco, California, United States";
+    document.getElementById('job_application_answers_attributes_0_text_value').value="https://www.linkedin.com/in/arora-ayush";
+    document.getElementById('job_application_answers_attributes_2_text_value').value="Linkedin";
+    document.getElementById('job_application_gender').value=1;
+    document.getElementById('job_application_hispanic_ethnicity').value='No';
+    document.getElementById('job_application_veteran_status').value=1;
+    document.getElementById('job_application_disability_status').value=2;
+
 }
